@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Movimiento : MonoBehaviour
 {
-    public float Velocidad = 20;
+    public float Velocidad = 30;
     Vector2 Direccion = new Vector2(1, 0);
     public float Limites = 20;
     Vector3 playerPosition;
