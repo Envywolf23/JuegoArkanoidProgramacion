@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class cambiador_denivel : MonoBehaviour {
-    public string Escena;
+    public string Escenas;
     public string Escena2;
     
        public void Jugar()
