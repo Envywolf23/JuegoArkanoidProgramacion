@@ -56,7 +56,7 @@ public class Bola : MonoBehaviour {
         if (BolaEstaActiva && transform.position.y < -6) {
             BolaEstaActiva = !BolaEstaActiva;
             PosicionBola.x = Barra.transform.position.x;
-            PosicionBola.y = -3.6f;
+            PosicionBola.y = -4.2f;
             transform.position = PosicionBola;
             FuerzaInicialBola = new Vector2(25.0f,50.0f);
             FuerzaInicialBola = new Vector2(-2.0f,-4.5f);

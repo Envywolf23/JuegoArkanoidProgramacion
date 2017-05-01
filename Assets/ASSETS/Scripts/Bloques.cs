@@ -29,6 +29,7 @@ public class Bloques : MonoBehaviour {
                
                 //Destruye el objeto
                 Destroy(this.gameObject);
+
             }
         }
 
